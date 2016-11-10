@@ -1,0 +1,22 @@
+{
+  "name": "RCTWebViewBridge",
+  "version": "0.1.0",
+  "summary": "A short description of RCTWebViewBridge.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/RCTWebViewBridge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Axel Bengtsson": "axel.bengtsson@klarna.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/RCTWebViewBridge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RCTWebViewBridge/Classes/**/*"
+}

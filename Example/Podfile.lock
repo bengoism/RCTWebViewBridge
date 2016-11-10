@@ -1,0 +1,16 @@
+PODS:
+  - RCTWebViewBridge (0.1.0)
+
+DEPENDENCIES:
+  - RCTWebViewBridge (from `../`)
+
+EXTERNAL SOURCES:
+  RCTWebViewBridge:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RCTWebViewBridge: ba9d06116b526818086a549fcf59b293a159828c
+
+PODFILE CHECKSUM: 2e62e1c288b878defc68cc5d589e6db1af71c0e0
+
+COCOAPODS: 1.1.1

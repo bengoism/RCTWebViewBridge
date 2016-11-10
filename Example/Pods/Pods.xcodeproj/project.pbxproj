@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0477A44920A069872BDE9793F19FE90C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		182FE1FF1D58EBEEE42FEF916470CA09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2D6F3319EDED4969922ABAF0B493D5DA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A986095B714A783A5B69C5316E244964 /* ReplaceMe.m */; };
+		744BE1D25CEFFDC8FE661C6621F77690 /* Pods-RCTWebViewBridge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE24A3477277D5EEE0158FF04CCB4A08 /* Pods-RCTWebViewBridge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8031AE65158DB671FF0FE09F186384F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A9CBAAC8C05B193F56E67BED225E459E /* RCTWebViewBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD0C54A516678297D08251DD69CD62D /* RCTWebViewBridge-dummy.m */; };
+		AC287A48F35359913118346739248379 /* RCTWebViewBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 666337B9186CD2F60A3250D966532A9C /* RCTWebViewBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C97EF3295F81DAAB37A7C764672E741D /* Pods-RCTWebViewBridge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D15122586B747094D028A47894EFD997 /* Pods-RCTWebViewBridge_Example-dummy.m */; };
+		CF79DD5651CFC7ED8FC92BEF94E014E0 /* Pods-RCTWebViewBridge_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9839E2CE37C530B1942835B9EF83881 /* Pods-RCTWebViewBridge_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6FFDAD5F2B5B8E9DF40558FA39E61D /* Pods-RCTWebViewBridge_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 175B82584B94DF9F0FAD4FC27C38537B /* Pods-RCTWebViewBridge_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A43DA50F82BB0BC387CBDDCD684565EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115D1277B5805D60D6FDA020D6E9F45A;
+			remoteInfo = RCTWebViewBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13AC95D3BF61ED2DD824221937519EF0 /* Pods-RCTWebViewBridge_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCTWebViewBridge_Tests-resources.sh"; sourceTree = "<group>"; };
+		16191C7480D7384EC99296D46D7A50AF /* RCTWebViewBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCTWebViewBridge.xcconfig; sourceTree = "<group>"; };
+		175B82584B94DF9F0FAD4FC27C38537B /* Pods-RCTWebViewBridge_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCTWebViewBridge_Tests-dummy.m"; sourceTree = "<group>"; };
+		1C19BA5622546B96CD171F95A0E56BCF /* Pods-RCTWebViewBridge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RCTWebViewBridge_Example.modulemap"; sourceTree = "<group>"; };
+		276A0AE48F11E874EC340B4324492CA5 /* Pods-RCTWebViewBridge_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCTWebViewBridge_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3341212732F3C53F76FED26A46D58EC1 /* Pods-RCTWebViewBridge_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCTWebViewBridge_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35DE4D4E11C56C2765D9015F508676F7 /* Pods-RCTWebViewBridge_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCTWebViewBridge_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39B82D90DE75FFC0FA7F56377E39F95D /* Pods_RCTWebViewBridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RCTWebViewBridge_Tests.framework; path = "Pods-RCTWebViewBridge_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F06630AE36DD1CA6100E2F49FC4574E /* Pods-RCTWebViewBridge_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCTWebViewBridge_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4314A937EA00CBC45C796511B943FF15 /* Pods-RCTWebViewBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCTWebViewBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
+		450FFF2F511F62D3B9BB6ED7B83313C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4999F7BF289B0B833A38F2FFF8A5D9AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0C2649A8ACE50C2A52DFFF810E0240 /* Pods-RCTWebViewBridge_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCTWebViewBridge_Example-frameworks.sh"; sourceTree = "<group>"; };
+		50E5273B6FC931E2F5420CAB50BE0D3D /* Pods-RCTWebViewBridge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCTWebViewBridge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		58D8590AFE0DA3BC505301680805EB68 /* Pods-RCTWebViewBridge_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCTWebViewBridge_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		666337B9186CD2F60A3250D966532A9C /* RCTWebViewBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTWebViewBridge-umbrella.h"; sourceTree = "<group>"; };
+		6BE71D82027760EC0FBCB60E5AAA0A21 /* Pods-RCTWebViewBridge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RCTWebViewBridge_Tests.modulemap"; sourceTree = "<group>"; };
+		7DD0C54A516678297D08251DD69CD62D /* RCTWebViewBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCTWebViewBridge-dummy.m"; sourceTree = "<group>"; };
+		81D0D9B2D8FC28EE894E9BE2C2C406BD /* Pods_RCTWebViewBridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RCTWebViewBridge_Example.framework; path = "Pods-RCTWebViewBridge_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8850447AB61682C7A65AD77CF88992A0 /* RCTWebViewBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTWebViewBridge.modulemap; sourceTree = "<group>"; };
+		914092DADF0E913479490A81776BC885 /* Pods-RCTWebViewBridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCTWebViewBridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A74748C8D94D2F1781B80D61E928BE94 /* Pods-RCTWebViewBridge_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCTWebViewBridge_Example-resources.sh"; sourceTree = "<group>"; };
+		A986095B714A783A5B69C5316E244964 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		AA9BFB927D8929160C3914CB71C4952C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9839E2CE37C530B1942835B9EF83881 /* Pods-RCTWebViewBridge_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCTWebViewBridge_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D15122586B747094D028A47894EFD997 /* Pods-RCTWebViewBridge_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCTWebViewBridge_Example-dummy.m"; sourceTree = "<group>"; };
+		D3F411B0B29B8D7F6A9BBFC60CC212CB /* RCTWebViewBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RCTWebViewBridge.framework; path = RCTWebViewBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8AA630C486EACA27B53EBBD27A4425A /* Pods-RCTWebViewBridge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCTWebViewBridge_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E8D38F8E273D628F124D1E70582DBD38 /* RCTWebViewBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTWebViewBridge-prefix.pch"; sourceTree = "<group>"; };
+		FE24A3477277D5EEE0158FF04CCB4A08 /* Pods-RCTWebViewBridge_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCTWebViewBridge_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1754D1DF3D0475A3864B0669B7D91424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477A44920A069872BDE9793F19FE90C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A3FFC158F0C30B9B474C0B5DB67756A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8031AE65158DB671FF0FE09F186384F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C384AFB968744D3F7D39B36CF8E1A82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182FE1FF1D58EBEEE42FEF916470CA09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30B66785631D62A3F8EE26234A1E6357 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA9BFB927D8929160C3914CB71C4952C /* Info.plist */,
+				8850447AB61682C7A65AD77CF88992A0 /* RCTWebViewBridge.modulemap */,
+				16191C7480D7384EC99296D46D7A50AF /* RCTWebViewBridge.xcconfig */,
+				7DD0C54A516678297D08251DD69CD62D /* RCTWebViewBridge-dummy.m */,
+				E8D38F8E273D628F124D1E70582DBD38 /* RCTWebViewBridge-prefix.pch */,
+				666337B9186CD2F60A3250D966532A9C /* RCTWebViewBridge-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RCTWebViewBridge";
+			sourceTree = "<group>";
+		};
+		5A4A0C370A721799CC2B66119200E276 /* RCTWebViewBridge */ = {
+			isa = PBXGroup;
+			children = (
+				AF71B257DDB0410DFE5B6E2770771D99 /* RCTWebViewBridge */,
+				30B66785631D62A3F8EE26234A1E6357 /* Support Files */,
+			);
+			name = RCTWebViewBridge;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E8AE5E5C7F20FEFB06B4AF44B9A412F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E1432598482A298E2978E5BA550D4C7 /* Pods-RCTWebViewBridge_Example */,
+				D4C840E74EB6F4C926AEF905A02D8D24 /* Pods-RCTWebViewBridge_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		643EAA449F9EA5B5B1463F5EBDD28D92 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A4A0C370A721799CC2B66119200E276 /* RCTWebViewBridge */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				643EAA449F9EA5B5B1463F5EBDD28D92 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C8BA1E5DC0A72AA26FA5726E9EFDAA3D /* Products */,
+				5E8AE5E5C7F20FEFB06B4AF44B9A412F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1432598482A298E2978E5BA550D4C7 /* Pods-RCTWebViewBridge_Example */ = {
+			isa = PBXGroup;
+			children = (
+				450FFF2F511F62D3B9BB6ED7B83313C7 /* Info.plist */,
+				1C19BA5622546B96CD171F95A0E56BCF /* Pods-RCTWebViewBridge_Example.modulemap */,
+				35DE4D4E11C56C2765D9015F508676F7 /* Pods-RCTWebViewBridge_Example-acknowledgements.markdown */,
+				3F06630AE36DD1CA6100E2F49FC4574E /* Pods-RCTWebViewBridge_Example-acknowledgements.plist */,
+				D15122586B747094D028A47894EFD997 /* Pods-RCTWebViewBridge_Example-dummy.m */,
+				4D0C2649A8ACE50C2A52DFFF810E0240 /* Pods-RCTWebViewBridge_Example-frameworks.sh */,
+				A74748C8D94D2F1781B80D61E928BE94 /* Pods-RCTWebViewBridge_Example-resources.sh */,
+				FE24A3477277D5EEE0158FF04CCB4A08 /* Pods-RCTWebViewBridge_Example-umbrella.h */,
+				914092DADF0E913479490A81776BC885 /* Pods-RCTWebViewBridge_Example.debug.xcconfig */,
+				4314A937EA00CBC45C796511B943FF15 /* Pods-RCTWebViewBridge_Example.release.xcconfig */,
+			);
+			name = "Pods-RCTWebViewBridge_Example";
+			path = "Target Support Files/Pods-RCTWebViewBridge_Example";
+			sourceTree = "<group>";
+		};
+		AF71B257DDB0410DFE5B6E2770771D99 /* RCTWebViewBridge */ = {
+			isa = PBXGroup;
+			children = (
+				B4F882573A54C05564A7D7E641D10FB2 /* Classes */,
+			);
+			name = RCTWebViewBridge;
+			path = RCTWebViewBridge;
+			sourceTree = "<group>";
+		};
+		B4F882573A54C05564A7D7E641D10FB2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A986095B714A783A5B69C5316E244964 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8BA1E5DC0A72AA26FA5726E9EFDAA3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81D0D9B2D8FC28EE894E9BE2C2C406BD /* Pods_RCTWebViewBridge_Example.framework */,
+				39B82D90DE75FFC0FA7F56377E39F95D /* Pods_RCTWebViewBridge_Tests.framework */,
+				D3F411B0B29B8D7F6A9BBFC60CC212CB /* RCTWebViewBridge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4C840E74EB6F4C926AEF905A02D8D24 /* Pods-RCTWebViewBridge_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4999F7BF289B0B833A38F2FFF8A5D9AC /* Info.plist */,
+				6BE71D82027760EC0FBCB60E5AAA0A21 /* Pods-RCTWebViewBridge_Tests.modulemap */,
+				58D8590AFE0DA3BC505301680805EB68 /* Pods-RCTWebViewBridge_Tests-acknowledgements.markdown */,
+				3341212732F3C53F76FED26A46D58EC1 /* Pods-RCTWebViewBridge_Tests-acknowledgements.plist */,
+				175B82584B94DF9F0FAD4FC27C38537B /* Pods-RCTWebViewBridge_Tests-dummy.m */,
+				276A0AE48F11E874EC340B4324492CA5 /* Pods-RCTWebViewBridge_Tests-frameworks.sh */,
+				13AC95D3BF61ED2DD824221937519EF0 /* Pods-RCTWebViewBridge_Tests-resources.sh */,
+				C9839E2CE37C530B1942835B9EF83881 /* Pods-RCTWebViewBridge_Tests-umbrella.h */,
+				50E5273B6FC931E2F5420CAB50BE0D3D /* Pods-RCTWebViewBridge_Tests.debug.xcconfig */,
+				D8AA630C486EACA27B53EBBD27A4425A /* Pods-RCTWebViewBridge_Tests.release.xcconfig */,
+			);
+			name = "Pods-RCTWebViewBridge_Tests";
+			path = "Target Support Files/Pods-RCTWebViewBridge_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52D6730FB7997F8E217DFD27C259173D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF79DD5651CFC7ED8FC92BEF94E014E0 /* Pods-RCTWebViewBridge_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A854D88CC701D79EDFBF16F55E3C342 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC287A48F35359913118346739248379 /* RCTWebViewBridge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC665CDD9BE086AC3281581A02EE7E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744BE1D25CEFFDC8FE661C6621F77690 /* Pods-RCTWebViewBridge_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		078D31262422D8E6A26391B5CC24CF39 /* Pods-RCTWebViewBridge_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78FE8B0C9C191DB211B47AB692637DC /* Build configuration list for PBXNativeTarget "Pods-RCTWebViewBridge_Example" */;
+			buildPhases = (
+				BA905EB317ED5B910150316AF4490A0D /* Sources */,
+				C384AFB968744D3F7D39B36CF8E1A82A /* Frameworks */,
+				9AC665CDD9BE086AC3281581A02EE7E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37B06AECDF7A46BE5B975B037B53A6F /* PBXTargetDependency */,
+			);
+			name = "Pods-RCTWebViewBridge_Example";
+			productName = "Pods-RCTWebViewBridge_Example";
+			productReference = 81D0D9B2D8FC28EE894E9BE2C2C406BD /* Pods_RCTWebViewBridge_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		115D1277B5805D60D6FDA020D6E9F45A /* RCTWebViewBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D06D921B16F906009198B7236EC08BF /* Build configuration list for PBXNativeTarget "RCTWebViewBridge" */;
+			buildPhases = (
+				1526F0A3475B9422EBDF639BE1B0ACA8 /* Sources */,
+				1754D1DF3D0475A3864B0669B7D91424 /* Frameworks */,
+				9A854D88CC701D79EDFBF16F55E3C342 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTWebViewBridge;
+			productName = RCTWebViewBridge;
+			productReference = D3F411B0B29B8D7F6A9BBFC60CC212CB /* RCTWebViewBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8551A531769D9FE4B0A0BA5E9C3174B5 /* Pods-RCTWebViewBridge_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8931E821826F7C20AA0A8618C96F5B /* Build configuration list for PBXNativeTarget "Pods-RCTWebViewBridge_Tests" */;
+			buildPhases = (
+				7997C9F55CEFBFEF6817454929611200 /* Sources */,
+				7A3FFC158F0C30B9B474C0B5DB67756A /* Frameworks */,
+				52D6730FB7997F8E217DFD27C259173D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RCTWebViewBridge_Tests";
+			productName = "Pods-RCTWebViewBridge_Tests";
+			productReference = 39B82D90DE75FFC0FA7F56377E39F95D /* Pods_RCTWebViewBridge_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C8BA1E5DC0A72AA26FA5726E9EFDAA3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078D31262422D8E6A26391B5CC24CF39 /* Pods-RCTWebViewBridge_Example */,
+				8551A531769D9FE4B0A0BA5E9C3174B5 /* Pods-RCTWebViewBridge_Tests */,
+				115D1277B5805D60D6FDA020D6E9F45A /* RCTWebViewBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1526F0A3475B9422EBDF639BE1B0ACA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CBAAC8C05B193F56E67BED225E459E /* RCTWebViewBridge-dummy.m in Sources */,
+				2D6F3319EDED4969922ABAF0B493D5DA /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997C9F55CEFBFEF6817454929611200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6FFDAD5F2B5B8E9DF40558FA39E61D /* Pods-RCTWebViewBridge_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA905EB317ED5B910150316AF4490A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97EF3295F81DAAB37A7C764672E741D /* Pods-RCTWebViewBridge_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A37B06AECDF7A46BE5B975B037B53A6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCTWebViewBridge;
+			target = 115D1277B5805D60D6FDA020D6E9F45A /* RCTWebViewBridge */;
+			targetProxy = A43DA50F82BB0BC387CBDDCD684565EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		386092278A0198BC9A78A4E4CDF781E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E5273B6FC931E2F5420CAB50BE0D3D /* Pods-RCTWebViewBridge_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RCTWebViewBridge_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCTWebViewBridge_Tests/Pods-RCTWebViewBridge_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RCTWebViewBridge_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54D1FC006DF0CBB58C4C7B2DFD786C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16191C7480D7384EC99296D46D7A50AF /* RCTWebViewBridge.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RCTWebViewBridge/RCTWebViewBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RCTWebViewBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RCTWebViewBridge/RCTWebViewBridge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RCTWebViewBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F79A2BEBBC771B5239AEFA1A6DEB288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8AA630C486EACA27B53EBBD27A4425A /* Pods-RCTWebViewBridge_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RCTWebViewBridge_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCTWebViewBridge_Tests/Pods-RCTWebViewBridge_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RCTWebViewBridge_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C3D6FC8236353F4E49227061BA8DB396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4314A937EA00CBC45C796511B943FF15 /* Pods-RCTWebViewBridge_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RCTWebViewBridge_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCTWebViewBridge_Example/Pods-RCTWebViewBridge_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RCTWebViewBridge_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCFB15602A9BF839B06061D5B50233B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16191C7480D7384EC99296D46D7A50AF /* RCTWebViewBridge.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RCTWebViewBridge/RCTWebViewBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RCTWebViewBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RCTWebViewBridge/RCTWebViewBridge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RCTWebViewBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC33445FCE4F13D14BADF40F91C86A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 914092DADF0E913479490A81776BC885 /* Pods-RCTWebViewBridge_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RCTWebViewBridge_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCTWebViewBridge_Example/Pods-RCTWebViewBridge_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RCTWebViewBridge_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D06D921B16F906009198B7236EC08BF /* Build configuration list for PBXNativeTarget "RCTWebViewBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D1FC006DF0CBB58C4C7B2DFD786C24 /* Debug */,
+				DCFB15602A9BF839B06061D5B50233B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8931E821826F7C20AA0A8618C96F5B /* Build configuration list for PBXNativeTarget "Pods-RCTWebViewBridge_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386092278A0198BC9A78A4E4CDF781E6 /* Debug */,
+				8F79A2BEBBC771B5239AEFA1A6DEB288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78FE8B0C9C191DB211B47AB692637DC /* Build configuration list for PBXNativeTarget "Pods-RCTWebViewBridge_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC33445FCE4F13D14BADF40F91C86A61 /* Debug */,
+				C3D6FC8236353F4E49227061BA8DB396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

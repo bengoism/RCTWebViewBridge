@@ -1,0 +1,6 @@
+framework module RCTWebViewBridge {
+  umbrella header "RCTWebViewBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}
