@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RCTWebViewBridge_Example' do
+  pod 'RCTWebViewBridge', :path => '../'
+
+  target 'RCTWebViewBridge_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
